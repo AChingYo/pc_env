@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/cy/workspaces/edgenode/internal/nts/daemon'
+let g:netrw_dirhist_2='/home/cy/workspaces/edgenode/internal/nts'
+let g:netrw_dirhist_3='/home/cy/workspaces/edgenode/internal/nts/daemon/nts'
+let g:netrw_dirhist_4='/home/cy/workspaces/edgenode/internal/nts/daemon'
+let g:netrw_dirhist_5='/home/cy/workspaces/edgenode/internal/nts'
+let g:netrw_dirhist_6='/home/cy/workspaces/edgenode/internal'
+let g:netrw_dirhist_7='/home/cy/workspaces/edgenode'
+let g:netrw_dirhist_8='/home/cy/workspaces'
+let g:netrw_dirhist_9='/home/cy'
