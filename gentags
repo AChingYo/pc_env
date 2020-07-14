@@ -16,6 +16,7 @@ find "$PWD" -name '*.[ch]' \
 -o -name '*.cc' \
 -o -name '*.hpp' \
 -o -name '*.py' \
+-o -name '*.go' \
 -o -name '*.php' > "$CSCOPE_DIR/cscope.files"
 
 echo "Adding files to cscope db: $PWD/cscope.db ..."
