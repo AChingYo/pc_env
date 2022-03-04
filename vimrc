@@ -7,6 +7,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
 Plug 'simnalamburt/vim-mundo'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 
 
 " Initialize plugin system
@@ -21,3 +23,11 @@ set clipboard=unnamed,unnamedplus
 set tags=tags;
 set undofile
 set undodir=~/.vim/undo
+
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
